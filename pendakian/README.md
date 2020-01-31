@@ -3,7 +3,7 @@ Intent pengiriman data dengan menggunakan Bundle class
 <br><br>
 ## Project 1: Aplikasi Biodata
 ### 1. Design Layout Aplikasi 
-<img src="https://github.com/afifamar22/androidfundamental/blob/master/pendakian/picture/design.png" width="150" height="350"/>
+<img src="https://github.com/afifamar22/androidfundamental/blob/master/pendakian/picture/design.png" width="500" height="400"/>
 ### 2. Hasil Project1
 <img src="https://github.com/afifamar22/androidfundamental/blob/master/pendakian/picture/tamp1.png"/>
 ### 3. Hasil Project2
