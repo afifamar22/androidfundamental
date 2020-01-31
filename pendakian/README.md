@@ -11,4 +11,4 @@ Intent pengiriman data dengan menggunakan Bundle class
 Intent pengiriman data dengan menggunakan Bundle class 
 <br><br><br>
 ###1.Design Layaout Aplikasi 
-<ing src
+<ing src=""/>
