@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgrounds"
+    tools:context=".detail_pendakian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORMULIR PENDAKIAN"
+            android:textStyle="bold"
+            android:textSize="13pt"
+            android:layout_gravity="center"
+            android:textColor="#020000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GUNUNG SINDORO JAWA TENGAH VIA KLEDUNG"
+            android:textSize="5pt"
+            android:textColor="#FFFEFE"
+            android:layout_gravity="center" />
+
+
+
+        <TextView
+            android:id="@+id/tmpNamapeserta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="nama peserta"
+            android:textSize="10pt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informasi Lengkap :"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="20dp"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Tempat Tanggal lahir"
+                android:textSize="5pt"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:textStyle="bold"
+                android:text="     :" />
+
+            <TextView
+                android:id="@+id/tmpttl"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:text="Text 1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="20dp"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="No Telepon"
+                android:textSize="5pt"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:textStyle="bold"
+                android:text="     :" />
+
+            <TextView
+                android:id="@+id/tmpnotelp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:text="Text 2"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Jenis Kelamin"
+            android:textSize="5pt"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFEFE"
+            android:textStyle="bold"
+            android:text="     :" />
+
+        <TextView
+
+            android:id="@+id/tmpjk"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFEFE"
+            android:text="Text 3"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="20dp"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Alamat"
+                android:textSize="5pt"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:textStyle="bold"
+                android:text="     :" />
+
+            <TextView
+                android:id="@+id/tmpAlamat"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:text="Text 4"/>
+
+
+        </LinearLayout>
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/tmpnotelp"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Nomor Telepon"-->
+<!--            android:textSize="5pt"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tmpjk"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:text="Jenis kelamin"-->
+<!--            android:textSize="5pt"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tmpalamat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="alamat"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="5pt"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

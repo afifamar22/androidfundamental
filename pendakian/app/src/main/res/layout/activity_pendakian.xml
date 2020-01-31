@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgrounds">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PESERTA PENDAKIAN"
+            android:textSize="13pt"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#FFFFFF">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pendakian gunung sindoro via kledung"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/editnamapeserta"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Peserta"/>
+
+        <EditText
+            android:id="@+id/editttl"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="6"
+            android:hint="Tempat,Tanggal Lahir"/>
+
+        <EditText
+            android:id="@+id/editnotelp"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nomor telepon"/>
+
+        <EditText
+            android:id="@+id/editjk"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jenis Kelamin"/>
+
+       <EditText
+            android:id="@+id/editalamat"
+           android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat lengkap"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonview"
+                android:layout_marginLeft="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorlihat"
+                android:text="Lihat"/>
+
+            <Button
+                android:id="@+id/buttonhapus"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF7F7"
+                android:background="@color/colorhapus"
+                android:text="Hapus"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
