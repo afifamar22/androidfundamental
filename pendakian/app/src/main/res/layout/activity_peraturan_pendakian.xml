@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgrounds"
+    tools:context=".peraturan_pendakian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PERATURAN"
+            android:textStyle="bold"
+            android:textSize="13pt"
+            android:layout_gravity="center"
+            android:textColor="#020000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GUNUNG SINDORO JAWA TENGAH VIA KLEDUNG"
+            android:textSize="5pt"
+            android:textColor="#FFFEFE"
+            android:layout_gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="20dp"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Tempat Tanggal lahir"
+                android:textSize="5pt"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:textStyle="bold"
+                android:text="     :" />
+
+            <TextView
+                android:id="@+id/tmpttl"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:text="Text 1"/>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

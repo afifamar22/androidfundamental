@@ -14,12 +14,12 @@ public class pendakianActivity extends AppCompatActivity {
 
 
     //TODO 1 DEKLARASI VIEW
-    EditText etnamapeserta,etttl,etnotelp,etjk,etalamat;
+    EditText etnamapeserta,etttl,etnotelp,etumur,etjk,etalamat;
     Button btlihat,bthapus;
 
     AlertDialog.Builder builderAlert;
     String namapeserta,ttl,jkelamin,alamat;
-    int notelp;
+    int notelp,umur;
     Intent kirimdata;
     Bundle pakagependakian;
 
@@ -35,6 +35,7 @@ public class pendakianActivity extends AppCompatActivity {
         etnamapeserta =(EditText) findViewById(R.id.editnamapeserta);
         etttl = (EditText) findViewById(R.id.editttl);
         etnotelp = (EditText) findViewById(R.id.editnotelp);
+        etumur = (EditText) findViewById(R.id.editumur);
         etjk = (EditText) findViewById(R.id.editjk);
         etalamat =(EditText)findViewById(R.id.editalamat);
         btlihat = (Button) findViewById(R.id.buttonview);
@@ -48,15 +49,16 @@ public class pendakianActivity extends AppCompatActivity {
                 namapeserta =etnamapeserta.getText().toString();
                 ttl =etttl.getText().toString();
                 notelp = Integer.parseInt(etnotelp.getText().toString());
+                umur = Integer.parseInt(etumur.getText().toString());
                 jkelamin =etjk.getText().toString();
                 alamat =etalamat.getText().toString();
 
                 builderAlert = new AlertDialog.Builder(pendakianActivity.this);
                 builderAlert
                         .setTitle("informasi")
-                        .setMessage("FORMULIR PENDAKIAN \nNama peserta :"
+                        .setMessage("FORMULIR PENDAKIAN\n" + "\nNama peserta :"
                                 + namapeserta +"\nTempat,Tanggal lahir anda :" + ttl + "\nNomor telpon :"
-                                + notelp + "\njenis Kelamin :" + jkelamin + "\nAlamat lengkap :" + alamat)
+                                + notelp + "\nUmur :" + umur +"\njenis Kelamin :" + jkelamin + "\nAlamat lengkap :" + alamat)
                         .setPositiveButton("Kirim", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
@@ -64,6 +66,7 @@ public class pendakianActivity extends AppCompatActivity {
                                 pakagependakian.putString("NamaPeserta",namapeserta);
                                 pakagependakian.putString("TempatTinggalLahir",ttl);
                                 pakagependakian.putInt("NomorTelepon",notelp);
+                                pakagependakian.putInt("Umur",umur);
                                 pakagependakian.putString("Jeniskelamin",jkelamin);
                                 pakagependakian.putString("AlamatLengkap",alamat);
                                 kirimdata = new Intent(pendakianActivity.this,detail_pendakian.class);

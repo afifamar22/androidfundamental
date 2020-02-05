@@ -53,6 +53,13 @@
             android:layout_height="wrap_content"
             android:inputType="number"
             android:hint="Nomor telepon"/>
+        <EditText
+            android:id="@+id/editumur"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Umur"/>
 
         <EditText
             android:id="@+id/editjk"
@@ -76,21 +83,21 @@
 
             <Button
                 android:id="@+id/buttonview"
-                android:layout_marginLeft="70dp"
-                android:layout_width="wrap_content"
+                android:layout_width="130dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
                 android:textColor="#FFFFFF"
                 android:background="@color/colorlihat"
                 android:text="Lihat"/>
 
             <Button
                 android:id="@+id/buttonhapus"
-                android:layout_marginLeft="50dp"
-                android:layout_width="wrap_content"
+                android:layout_width="121dp"
                 android:layout_height="wrap_content"
-                android:textColor="#FFF7F7"
+                android:layout_marginLeft="30dp"
                 android:background="@color/colorhapus"
-                android:text="Hapus"/>
+                android:text="Hapus"
+                android:textColor="#FFF7F7" />
         </LinearLayout>
 
     </LinearLayout>

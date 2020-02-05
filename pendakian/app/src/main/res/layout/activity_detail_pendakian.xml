@@ -124,6 +124,43 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="20dp"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Umur"
+                android:textSize="5pt"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:textStyle="bold"
+                android:text="     :" />
+
+            <TextView
+                android:id="@+id/tmpumur"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFEFE"
+                android:text="Text 2"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -198,37 +235,32 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_marginTop="270dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-<!--        <TextView-->
-<!--            android:id="@+id/tmpnotelp"-->
-<!--            android:textColor="#FFFFFF"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Nomor Telepon"-->
-<!--            android:textSize="5pt"-->
-<!--            android:gravity="center"-->
-<!--            />-->
-<!--        <TextView-->
-<!--            android:id="@+id/tmpjk"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:textColor="#FFFFFF"-->
-<!--            android:text="Jenis kelamin"-->
-<!--            android:textSize="5pt"-->
-<!--            android:gravity="center"-->
-<!--            />-->
-<!--        <TextView-->
-<!--            android:id="@+id/tmpalamat"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="alamat"-->
-<!--            android:textColor="#FFFFFF"-->
-<!--            android:textSize="5pt"-->
-<!--            android:gravity="center"-->
-<!--            />-->
+            <Button
+                android:id="@+id/buttonperaturan"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@color/color"
+                android:text="peraturan"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/buttonviapembayaran"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@color/color"
+                android:text="via pembayaran"
+                android:textColor="#FFF7F7" />
+        </LinearLayout>
+
 
 
     </LinearLayout>
-
-
 </LinearLayout>
